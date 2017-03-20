@@ -14,7 +14,7 @@ ClauseSet defaultFunction()
 std::vector<std::string> defaultNames()
 {
 	std::vector<std::string> result;
-	for(int i = 0; i < 10000; i++)
+	for(int i = 1; i < 10000; i++)
 	{
 		std::string name = "";
 		size_t stringNumber = i;
